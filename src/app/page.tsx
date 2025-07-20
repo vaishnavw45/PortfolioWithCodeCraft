@@ -1,3 +1,25 @@
+import Header from '@/components/header';
+import HeroSection from '@/components/hero-section';
+import AboutSection from '@/components/about-section';
+import ProjectsSection from '@/components/projects-section';
+import ExperienceSection from '@/components/experience-section';
+import AiJobHelperSection from '@/components/ai-job-helper-section';
+import ContactSection from '@/components/contact-section';
+import Footer from '@/components/footer';
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="flex flex-col min-h-dvh bg-background">
+      <Header />
+      <main className="flex-1">
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <ExperienceSection />
+        <AiJobHelperSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </div>
+  );
 }
