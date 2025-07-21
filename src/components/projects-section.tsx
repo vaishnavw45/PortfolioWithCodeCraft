@@ -13,11 +13,10 @@ const projects = [
   {
     title: 'StreamX',
     description: 'A fully-interactive OTT platform built using a modular React.js architecture. Features include dynamic content via TMDB API, Firebase authentication, and responsive UI with Swiper.js and Tailwind CSS.',
-<<<<<<< HEAD
+
     image: '/images/project-1.png',
-=======
-    image: '/home/user/studio/src/img/image-1200x800.png',
->>>>>>> 8b6eee1a76c6e6fce4c73aebc61dd4a10b93896c
+
+
     stack: ['React.js', 'Firebase', 'TMDB API', 'Axios', 'Swiper.js', 'Tailwind CSS'],
     github: 'https://github.com/vaishnavw45/streamx',
     demo: 'https://github.com/vaishnavw45/streamx',
@@ -26,11 +25,11 @@ const projects = [
   {
     title: 'Ayurveda',
     description: 'A role-based Android app for doctors, admins, and patients. Includes appointment scheduling, online payments, and eCommerce features, all backed by Firebase for authentication and real-time data.',
-<<<<<<< HEAD
+
     image: '/images/project-2.png',
-=======
-    image: '',
->>>>>>> 8b6eee1a76c6e6fce4c73aebc61dd4a10b93896c
+
+
+
     stack: ['Java', 'Kotlin', 'Firebase', 'Android Studio', 'Figma'],
     github: 'https://github.com/vaishnavw45/ayurveda',
     demo: 'https://github.com/vaishnavw45/ayurveda',
