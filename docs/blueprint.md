@@ -1,4 +1,4 @@
-# **App Name**: CodeCraft Portfolio
+# **App Name**: Vaishnav Wakchaure
 
 ## Core Features:
 

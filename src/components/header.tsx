@@ -99,10 +99,18 @@ export default function Header() {
       scrolled ? "bg-background/80 border-b border-border backdrop-blur-lg" : "bg-transparent"
     )}>
       <nav className="container mx-auto flex items-center justify-between p-4">
-        <Link href="#hero" className="flex items-center gap-2 text-primary hover:scale-105 transition-transform">
-          <Code2 className="h-8 w-8" />
-          <span className="font-headline text-xl font-bold">CodeCraft</span>
-        </Link>
+      <Link
+  href="#hero"
+  className="flex items-center gap-2 text-primary hover:scale-105 transition-transform"
+>
+  <Code2 className="h-8 w-8" />
+  <span className="font-headline text-xl font-bold">
+    <span className="text-cyan-400">Vaishnav</span>
+    <span className="text-green-400">.dev</span>
+  </span>
+</Link>
+
+
 
         <div className="hidden md:flex items-center gap-6">
           <NavLinkItems />

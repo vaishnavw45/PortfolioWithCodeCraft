@@ -16,9 +16,10 @@ const fontHeadline = Space_Grotesk({
 
 
 export const metadata: Metadata = {
-  title: 'CodeCraft Portfolio',
-  description: 'A futuristic portfolio for a full-stack developer.',
+  title: 'Vaishnav Wakchaure | System Engineer Portfolio',
+  description: 'Portfolio of Vaishnav Wakchaure — Passionate about Linux, Networking, Cloud, and Cybersecurity.',
 };
+
 
 export default function RootLayout({
   children,

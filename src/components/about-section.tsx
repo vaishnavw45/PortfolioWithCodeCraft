@@ -109,13 +109,10 @@ export default function AboutSection() {
           <div className="md:col-span-2 flex justify-center">
             <div className="relative w-64 h-64">
               <Image
-<<<<<<< HEAD
+
                 src="/images/profile.jpg"
                 alt="Vaishnav Wakchaure Portrait"
-=======
-                src="https://placehold.co/400x400.png"
-                alt="Alex Doe Portrait"
->>>>>>> 8b6eee1a76c6e6fce4c73aebc61dd4a10b93896c
+
                 width={400}
                 height={400}
                 className="rounded-lg object-cover z-10 relative border-2 border-primary shadow-lg"
