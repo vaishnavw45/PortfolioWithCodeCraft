@@ -9,42 +9,25 @@ import { cn } from '@/lib/utils';
 import { Button } from './ui/button';
 
 const projects = [
+  
   {
-    title: 'Project Alpha',
-    description: 'A web-based platform for real-time data visualization and analytics, helping businesses make informed decisions.',
-    image: 'https://placehold.co/1200x800.png',
-    stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'D3.js', 'Firebase'],
-    github: 'https://github.com',
-    demo: 'https://github.com',
-    aiHint: 'data dashboard'
+    title: 'StreamX',
+    description: 'A fully-interactive OTT platform built using a modular React.js architecture. Features include dynamic content via TMDB API, Firebase authentication, and responsive UI with Swiper.js and Tailwind CSS.',
+    image: '/home/user/studio/src/img/image-1200x800.png',
+    stack: ['React.js', 'Firebase', 'TMDB API', 'Axios', 'Swiper.js', 'Tailwind CSS'],
+    github: 'https://github.com/vaishnavw45/streamx',
+    demo: 'https://github.com/vaishnavw45/streamx',
+    aiHint: 'video streaming web app'
   },
   {
-    title: 'Project Beta',
-    description: 'A mobile-first social networking app designed to connect people with shared interests in their local area.',
-    image: 'https://placehold.co/1200x800.png',
-    stack: ['React Native', 'Node.js', 'GraphQL', 'PostgreSQL'],
-    github: 'https://github.com',
-    demo: 'https://github.com',
-    aiHint: 'mobile application'
-  },
-  {
-    title: 'Project Gamma',
-    description: 'An e-commerce solution with a custom CMS for a boutique clothing brand, featuring a streamlined checkout process.',
-    image: 'https://placehold.co/1200x800.png',
-    stack: ['React', 'Redux', 'Express', 'MongoDB', 'Stripe API'],
-    github: 'https://github.com',
-    demo: 'https://github.com',
-    aiHint: 'ecommerce website'
-  },
-  {
-    title: 'Project Delta',
-    description: 'A serverless microservices architecture for a high-traffic media streaming service.',
-    image: 'https://placehold.co/1200x800.png',
-    stack: ['AWS Lambda', 'API Gateway', 'Python', 'DynamoDB'],
-    github: 'https://github.com',
-    demo: null,
-    aiHint: 'cloud architecture'
-  },
+    title: 'Ayurveda',
+    description: 'A role-based Android app for doctors, admins, and patients. Includes appointment scheduling, online payments, and eCommerce features, all backed by Firebase for authentication and real-time data.',
+    image: '',
+    stack: ['Java', 'Kotlin', 'Firebase', 'Android Studio', 'Figma'],
+    github: 'https://github.com/vaishnavw45/ayurveda',
+    demo: 'https://github.com/vaishnavw45/ayurveda',
+    aiHint: 'healthcare android app'
+  }
 ];
 
 export default function ProjectsSection() {

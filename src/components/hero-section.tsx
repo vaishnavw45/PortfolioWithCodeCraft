@@ -11,7 +11,7 @@ export default function HeroSection() {
           <div className="space-y-2">
             <p className="font-mono text-sm text-accent md:text-base">Hi, my name is</p>
             <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl">
-              Alex Doe.
+              Vaishnav Wakchaure.
             </h1>
             <AnimatedTyping
               titles={[

@@ -7,27 +7,21 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/
 import { Badge } from './ui/badge';
 
 const experiences = [
+  
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Solutions Inc.',
-    date: 'Jan 2021 - Present',
-    description: 'Leading development of scalable web applications. Mentoring junior developers and improving our CI/CD pipeline. Spearheaded a migration to a microservices architecture, improving system resilience by 30%.',
-    tags: ['React', 'Node.js', 'Kubernetes', 'GCP']
+    title: 'React Developer',
+    company: 'Maxgen Technologies Pvt. Ltd.',
+    date: 'Jan 2025 – Mar 2025',
+    description: 'Built and optimized dynamic UIs using React.js. Integrated REST APIs, managed complex state with Hooks and Redux, and crafted responsive layouts using Tailwind CSS and Material-UI. Collaborated cross-functionally to ensure seamless frontend-backend integration.',
+    tags: ['React.js', 'Redux', 'Tailwind CSS', 'Material-UI', 'REST API']
   },
   {
-    title: 'Software Engineer',
-    company: 'Innovate Co.',
-    date: 'Jun 2018 - Dec 2020',
-    description: 'Developed and maintained features for a large-scale e-commerce platform. Worked across the full stack, from database design to front-end implementation. Optimized API response times by 40%.',
-    tags: ['Vue.js', 'Python', 'Django', 'AWS']
-  },
-  {
-    title: 'Junior Web Developer',
-    company: 'Digital Agency',
-    date: 'May 2017 - May 2018',
-    description: 'Built and maintained client websites using WordPress and custom themes. Gained foundational experience in HTML, CSS, JavaScript, and PHP. Assisted senior developers with various projects.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'WordPress']
-  },
+    title: 'Cyber Intern',
+    company: 'Skill Vertex',
+    date: 'Feb 2023 – Apr 2023',
+    description: 'Conducted network security assessments and identified system vulnerabilities. Used ethical hacking tools and encryption protocols to harden systems and designed risk mitigation strategies to secure digital infrastructure.',
+    tags: ['Cybersecurity', 'Ethical Hacking', 'Networking', 'Encryption', 'Linux']
+  }
 ];
 
 const TimelineItem = ({ experience, isLeft }: { experience: (typeof experiences)[0], isLeft: boolean }) => {
