@@ -13,7 +13,7 @@ export default function Footer() {
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="https://linkedin.com/in/vaishnav-wakchuare" target="_blank" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/in/vaishnav-wakchaure/" target="_blank" aria-label="LinkedIn">
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
             </Link>
           </Button>
