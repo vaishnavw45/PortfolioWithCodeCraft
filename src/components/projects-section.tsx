@@ -28,7 +28,7 @@ const projects = [
   image: '/images/project-3.png', // Placeholder, update with actual image path
   stack: ['Next.js', 'Bun', 'Turborepo', 'WebSockets', 'AWS S3 (for presigning)', 'TypeScript'],
   github: 'https://github.com/vaishnavw45/BeatSync', // Update if your repo URL changes
-  demo: 'https://github.com/vaishnavw45/BeatSync', // Placeholder: Add a link to your live demo once hosted
+  demo: 'https://beat-sync-zeta.vercel.app/', // Placeholder: Add a link to your live demo once hosted
   aiHint: 'real-time music synchronization app'
 },
   {
