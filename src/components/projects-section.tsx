@@ -23,6 +23,15 @@ const projects = [
     aiHint: 'video streaming web app'
   },
   {
+  title: 'BeatSync',
+  description: 'A real-time, interactive music synchronization platform built as a Turborepo monorepo. Features a Next.js frontend, a custom backend server handling audio processing and real-time communication via WebSockets, and leverages Bun for fast development and package management.',
+  image: '/images/project-3.png', // Placeholder, update with actual image path
+  stack: ['Next.js', 'Bun', 'Turborepo', 'WebSockets', 'AWS S3 (for presigning)', 'TypeScript'],
+  github: 'https://github.com/vaishnavw45/BeatSync', // Update if your repo URL changes
+  demo: 'https://github.com/vaishnavw45/BeatSync', // Placeholder: Add a link to your live demo once hosted
+  aiHint: 'real-time music synchronization app'
+},
+  {
     title: 'Ayurveda',
     description: 'A role-based Android app for doctors, admins, and patients. Includes appointment scheduling, online payments, and eCommerce features, all backed by Firebase for authentication and real-time data.',
 
